@@ -80,10 +80,19 @@
     .container{
         max-width: 300px;
     }
+    .title{
+        font-size: 26px;
+    }
     .button{
         width: 114px;
         height: 25px;
         font-size: 9px;
+        &_main{
+            margin-top: 40px;
+            width: 213px;
+            height: 45px;
+            font-size: 13px;
+        }
     }
     .header {
         &__phone {
@@ -101,6 +110,7 @@
             margin-top: 35px;
             flex-direction: column;
             align-items: center;
+            width: 100%;
         }
         &__icon {
             margin-bottom: 20px;
@@ -108,5 +118,25 @@
                 margin-bottom: 10px;
             }
         }
+        &__link{
+            font-size: 12px;
+        }
+    }
+    .benefits{
+        padding: 25px 0 25px 0 ;
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon{
+            margin-top: 25px;
+        }
+        &__subtitle{
+            margin-top: 10px;
+        }
+        &__descr{
+            margin-top: 10px;
+        }
+        
     }
 }
