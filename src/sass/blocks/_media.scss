@@ -1,0 +1,112 @@
+@media (max-width: 992px) {
+    .container{
+        max-width: 700px;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        max-width: 550px;
+    }
+    .header>div {
+        width: 33%;
+    }
+    .header {
+        &__logo{
+            width: 170px
+        }
+        &__official {
+            font-size: 11px;
+            span {
+                font-size: 17px;
+            }
+        }
+        &__phone {
+            font-size: 15px;
+        }
+    }
+    .button{
+        width: 136px;
+        height: 31px;
+        &_main{
+            margin-top: 67px;
+            width: 220px;
+            height: 60px;
+            font-size: 16px;
+        }
+    }
+    .promo {
+        min-height: 600px;
+        padding: 21px 0 25px 0; 
+        &__wrapper {
+            margin-top: 50px;
+            align-items:center;
+        }
+        &__header{
+            text-align: center;
+        }
+        &__subheader{
+            text-align: center;
+        }
+        &__link{
+            font-size: 14px;
+        }
+    }
+    .benefits{
+        padding: 50px 0 50px 0;
+        &__wrapper{
+            margin-top: 30px;
+        }
+        &__descr{
+            a{
+                display: block;
+            }
+        }  
+        &__subtitle{
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        &__descr{
+            margin-top: 20px;
+        }     
+    }
+    .xs-hidden{
+        display: none;
+    }
+}
+@media (max-width: 576px){
+    .xs-hidden{
+        display: none;
+    }
+    .container{
+        max-width: 300px;
+    }
+    .button{
+        width: 114px;
+        height: 25px;
+        font-size: 9px;
+    }
+    .header {
+        &__phone {
+            font-size: 10px;
+        }
+    }
+    .promo{
+        &__header{
+            font-size: 34px;
+        }
+        &__subheader{
+            font-size: 18px;
+        }
+        &__icons{
+            margin-top: 35px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon {
+            margin-bottom: 20px;
+            img{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
