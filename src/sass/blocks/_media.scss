@@ -2,6 +2,11 @@
     .container{
         max-width: 700px;
     }
+    .consultation {
+        .title_left{
+            line-height: 45px;
+        }
+    }
 }
 @media (max-width: 768px) {
     .container{
@@ -69,6 +74,7 @@
             margin-top: 20px;
         }     
     }
+
     .xs-hidden{
         display: none;
     }
