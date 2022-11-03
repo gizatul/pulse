@@ -1,3 +1,14 @@
+@media (max-width:1200px) {
+    .carousel{
+        .prev, .next {
+            left: 0px;
+        }
+        .next {
+            left: auto;
+            right: 0px;
+        }
+    }
+}
 @media (max-width: 992px) {
     .container{
         max-width: 700px;
@@ -6,6 +17,13 @@
         line-height: 45px;
         }
     }
+    .carousel{
+        .tns-item img{
+            width: 550px;
+            }
+        }
+        
+
 @media (max-width: 768px) {
     .container{
         max-width: 550px;
@@ -165,6 +183,12 @@
     .feed-form{
         margin-top: 22px;
     }
+    .carousel{
+        padding: 20px 0 20px 0;
+        .tns-item img{
+            width: 300px;
+            }
+        }
 }
 
 

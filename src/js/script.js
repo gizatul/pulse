@@ -2,6 +2,8 @@ const slider = tns({
     container: '.carousel_inner',
     controls: false,
     nav: false,
+    autoplay: true,
+    speed: 600,
     controlsText: [
         '<img src="../img/arrows/prev_arrow.png">',
         '<img src="../img/arrows/next_arrow.png">'
