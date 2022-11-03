@@ -27,8 +27,20 @@
             margin: 0 auto;
         }
     }
-    [data-action=stop]{
+    .tns-nav{
         display: none;
+        margin: 0 auto;
+        &-active{
+            background: $main-color;
+        }
+        button{
+            border-radius: 10px;
+            width: 20px;
+            height: 20px;
+            margin: 0 15px;
+            border: 2px solid #d0d0d0;
+        }
     }
+
 
 }

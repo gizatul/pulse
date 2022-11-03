@@ -1,8 +1,10 @@
 const slider = tns({
     container: '.carousel_inner',
     controls: false,
-    nav: false,
+    nav: true,
+    navPosition: "bottom",
     autoplay: true,
+    autoplayButtonOutput: false,
     speed: 600,
     controlsText: [
         '<img src="../img/arrows/prev_arrow.png">',
