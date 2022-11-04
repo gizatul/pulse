@@ -16,13 +16,18 @@
     .title_left{
         line-height: 45px;
         }
-    }
     .carousel{
         .tns-item img{
             width: 550px;
             }
         }
-        
+    .catalog{
+        &__content{
+            justify-content: space-around;
+        }
+
+    }
+}    
 
 @media (max-width: 768px) {
     .container{
@@ -121,11 +126,16 @@
             width: 213px;
             height: 45px;
             font-size: 13px;}
-            &_submit{
-                width: 100%;
-                height: 58px;
-                font-size: 16px;
-                }
+        &_submit{
+            width: 100%;
+            height: 58px;
+            font-size: 16px;
+            }
+        &_mini{
+            width: 131px;
+            height: 40px;
+            font-size: 14px;
+        }
         }
     .header {
         &__phone {
@@ -190,11 +200,31 @@
         margin-top: 22px;
     }
     .carousel{
-        padding: 40px 0 20px 0;
+        padding: 40px 0 40px 0;
         .tns-item img{
             width: 300px;
             }
         }
+    .catalog{
+        padding-bottom: 30px;
+        &__tab{
+            padding: 3.4px 0;
+            width: 82px;
+            height: 35px;
+            line-height: 13px;
+            font-size: 10px;
+            span{
+                display: block;
+            }
+        }
+        &__tabs{
+            margin-top: 21px;
+        }
+        &__content{
+            margin-top: 30px;
+        }
+
+    }
 }
 
 
