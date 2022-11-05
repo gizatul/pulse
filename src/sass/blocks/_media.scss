@@ -140,7 +140,18 @@
         }
 
     }
-
+    .footer{
+        height: 100px;
+        &__info{
+            width: 400px;
+            height: 234px;
+            padding: 30px 34px 36px 34px;
+        }
+        &__map{
+            height: 500px;
+        }
+        
+    }
 
     .xs-hidden{
         display: none;
@@ -273,6 +284,25 @@
         }
         &__text{
             margin-top: 5px;
+        }
+    }
+    .footer{
+        &__info{
+            width: 320px;
+            height: 175px;
+            padding: 20px;
+        }
+        &__address{
+            font-size: 17px;
+
+        }
+        &__phone{
+            margin-top: 11px;
+            font-size: 18px;
+        }
+        &__social{
+            width: 180px;
+            margin-top: 14px;
         }
     }
 }

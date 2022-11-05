@@ -35,7 +35,9 @@
         margin-top: 36px;
         display: flex;
         justify-content: space-between;
-    a{  
+    }
+    &__item{
+        position: relative;  
         display: flex;
         justify-content: center;
         align-items: center;
@@ -45,13 +47,23 @@
         border-radius: 100%;
         background: rgba(0, 0, 0, 0);
         border: 2px solid #FFFFFF;
+        transition: 0.5s all;
+        &:hover{
+            bottom: 5px;
+        }
         span{
             text-align: center;
             font-size: 24px;
             color: #FFFFFF;
         }
-    
     }
-    
+
+    &__map{
+        height: 630px;
+        width: 100%;
+    }
+    iframe{
+        display: block;
+        width:100%;
     }
 }
