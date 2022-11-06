@@ -171,6 +171,9 @@
         width: 114px;
         height: 25px;
         font-size: 9px;
+        &:hover{
+            background: $main-color;
+        }
         &_main{
             margin-top: 40px;
             width: 213px;
@@ -185,6 +188,11 @@
             width: 131px;
             height: 40px;
             font-size: 14px;
+            &:hover {
+                background: $main-color;
+                box-shadow: none;
+                color: white;
+            }
         }
         }
     .header {
@@ -251,6 +259,9 @@
     .feed-form{
         margin: 0 auto;
         margin-top: 22px;
+        &_mt25{
+            width: 226px;
+        }
     }
     .carousel{
         padding: 40px 0 40px 0;
@@ -304,7 +315,29 @@
             width: 180px;
             margin-top: 14px;
         }
+        &__item{
+            &:hover{
+                bottom: 0px;
+            }
+        }
     }
+    .modal{
+        width: 275px;
+        padding: 25px;
+        min-height: 385px;
+        &__subtitle{
+            font-size: 14px;            
+        }
+        &__descr{
+            font-size: 11px;
+        }
+        &__close{
+            right: -18px;
+            font-size: 25px;
+            top: -5px;
+        }
+    }
+
 }
 
 

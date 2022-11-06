@@ -31,3 +31,13 @@ gulp.task('watch', function() {
 })
 
 gulp.task('default', gulp.parallel('watch', 'server', 'styles'));
+
+gulp.task('watch', function() {
+    gulp.watch("src/js/**/*.js").on('change', gulp.parallel('scripts'));
+});
+ 
+gulp.task('scripts', function () {
+    return gulp.src("src/js/**/*.js")
+        .pipe(gulp.dest("dist/js"))
+        .pipe(browserSync.stream());
+});
