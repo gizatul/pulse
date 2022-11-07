@@ -56,6 +56,34 @@ const slider = tns({
           $('.overlay, #order').fadeIn('slow');
         }); 
     });
+
+    //Validation
+
+    function valideForms(form){
+      $(form).validate({
+        rules: {
+          name:"required",
+          phone:"required",
+          email:{
+            required:true,
+            email: true
+          }   
+        },
+        messages: {
+          name: "Пожалуйста, укажите ваше имя",
+          phone: "Пожалуйста, введите свой номер телефона",
+          email: {
+            required: "Пожалуйста, введите свою почту",
+            email: "Ваш адрес электронной почты должен быть в формате name@domain.com"
+          }
+        }
+      });
+    };
+
+    valideForms('#consultation-form');
+    valideForms('#consultation form');
+    valideForms('#order form');
+
   })(jQuery);
 
       

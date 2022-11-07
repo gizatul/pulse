@@ -40,6 +40,14 @@
     &_mini{
         min-height: 143px;
     }
+    .error {
+        border: 1px solid red;
+        font-size: 11px;
+        color: red;
+    }
+    label.error{
+        border: none;
+    }
 }
 #consultation, #order, #thanks {
     display: none;

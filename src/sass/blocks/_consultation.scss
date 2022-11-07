@@ -10,4 +10,13 @@
         color: #FFFFFF;
         text-align: left;
     }
+    .error {
+        border: 1px solid red;
+        font-size: 11px;
+        color: red;
+    }
+    label.error{
+        border: none;
+        color: white;
+    }
 }
