@@ -259,8 +259,12 @@
     .feed-form{
         margin: 0 auto;
         margin-top: 22px;
+        input{
+            margin-top: 7px;
+        }
         &_mt25{
             width: 226px;
+            margin-top: 0;
         }
     }
     .carousel{
@@ -323,13 +327,14 @@
     }
     .modal{
         width: 275px;
-        padding: 25px;
-        min-height: 385px;
+        padding: 15px;
+        min-height: 300px;
         &__subtitle{
             font-size: 14px;            
         }
         &__descr{
             font-size: 11px;
+            margin-top: 0px;
         }
         &__close{
             right: -18px;
