@@ -1,4 +1,5 @@
 @import "base/variables";
+@import 'base/animations.scss';
 * {
     font-family: 'Museo Sans', sans-serif;
 }
@@ -20,5 +21,6 @@
 @import 'blocks/reviews.scss';
 @import 'blocks/footer.scss';
 @import 'blocks/modal.scss';
+@import 'blocks/pageup.scss';
 @import 'blocks/media.scss';
 
