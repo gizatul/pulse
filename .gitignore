@@ -22,3 +22,7 @@ yarn-error.log*
 
 # sass or scss
 /sass
+
+# mailer
+src/mailer/smart.php
+dist/mailer/smart.php
